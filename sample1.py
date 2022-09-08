@@ -6,6 +6,11 @@ SECONDS = 30
 
 
 def getMyEnvVar():
+    """
+    This demonstrates how I retrieve some value from an Environment Variable.
+    In Gitpod dashboard I defined that env var and supplied a value.
+    The value is hidden from anyone using the code of this application.
+    """
     val = os.environ.get('MY_SECRET_VAR')
     return int(val)
 
