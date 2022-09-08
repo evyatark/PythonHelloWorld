@@ -1,7 +1,7 @@
 
-def do1():
-    print(f'Hello World')
+def do1(name):
+    print(f'Hello {name}')
 
 
 if __name__ == '__main__':
-    do1()
+    do1('Evyatar')
